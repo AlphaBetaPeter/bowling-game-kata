@@ -16,7 +16,7 @@ public class BowlingGameKataTest
 	public void setUp() throws Exception {
 		bgk = new BowlingGameKata();
 	}
-	
+
 	private void rollMany(int n, int pins) {
 		for (int i = 0; i < n; i++)
 			bgk.roll(pins);
