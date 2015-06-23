@@ -1,0 +1,20 @@
+apply plugin: 'java'
+
+
+repositories {
+   jcenter()
+}
+
+test {
+	testLogging {
+		// Show that tests are run in the command-line output
+		events 'started', 'passed'
+	}
+}
+
+dependencies {
+    compile 'org.slf4j:slf4j-api:1.7.12'
+
+    testCompile 'junit:junit:4.12'
+}
+
