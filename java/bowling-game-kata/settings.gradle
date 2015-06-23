@@ -16,4 +16,4 @@ include 'api'
 include 'services:webservice'
 */
 
-rootProject.name = 'bgk'
+rootProject.name = 'bowling-game-kata'
